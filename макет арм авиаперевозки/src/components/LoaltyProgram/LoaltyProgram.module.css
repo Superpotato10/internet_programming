@@ -1,0 +1,69 @@
+.main_panel{
+    
+    padding-top: 48px;
+    margin-left: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-right: 5%;
+    background-color: #fff;
+    border: 1px solid #002A5A;
+    border-radius: 19px;
+    min-height: 648px;
+}
+.panel_header{
+    font-size: 24px;
+    margin-right: auto;
+    margin-left: 64px;
+    font-weight: bold;
+}
+.list{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 64px;
+    align-items: baseline;
+    justify-content: center;
+}
+.list_el{
+    font-size: 24px;
+    height: 48px;
+    padding-left: 64px;
+   
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+    
+    
+}
+#week{
+    background: url('/src/img/week.svg');
+    background-repeat: no-repeat;
+    background-size: 48px;
+    
+    
+}
+#sales{
+    background: url('/src/img/sales.svg');
+    background-repeat: no-repeat;
+    background-size: 48px;
+}
+#miles{
+    background: url('/src/img/miles.svg');
+    background-repeat: no-repeat;
+    background-size: 48px;
+}
+#employees{
+    background: url('/src/img/employees.svg');
+    background-repeat: no-repeat;
+    background-size: 48px;
+}
+#toures{
+    background: url('/src/img/toures.svg');
+    background-repeat: no-repeat;
+    background-size: 48px;
+}

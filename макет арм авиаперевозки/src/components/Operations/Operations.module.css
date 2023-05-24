@@ -1,0 +1,128 @@
+.main_panel{
+    
+    padding-top: 48px;
+    margin-left: auto;
+    min-height: 820px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-right: 5%;
+    background-color: #fff;
+    border: 1px solid #002A5A;
+    border-radius: 19px;
+
+}
+.head_panel{
+    margin-left: 64px;
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+.photo{
+    background-color: #A0E8FF;
+    width: 133px;
+    height: 133px;
+    border-radius: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: #fff;
+    font-weight: normal;
+
+}
+.middle_panel{
+    display: flex;
+    margin-left: 64px;
+    gap: 87px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.m_left_panel{
+    display: flex;
+    flex-direction: column;
+    gap: 128px  ;
+}
+.employee_panel{
+    display: flex;
+    flex-direction: column;
+    background: #E9FCFF;
+    border-radius: 19px;
+    width: 490px;
+    min-height: 216px;
+}
+.customer_panel{
+    display: flex;
+    flex-direction: column;
+    background: #E9FCFF;
+    border-radius: 19px;
+    min-height: 216px;
+    padding-bottom: 16px;
+}
+.m_right_panel{
+    display: flex;
+    flex-direction: column;
+    background: #E9FCFF;
+    border-radius: 19px;
+    width: 620px;
+    height: 256px;
+    margin-top: 128px;
+    padding-bottom: 16px;
+}
+.nav_link{
+    background: #A0E8FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    
+}
+.panel_header{
+    margin-top: 18px;
+    margin-right: auto;
+    margin-left: 24px;
+}
+.bottom_panel_main{
+    padding-left: 64px;
+    padding-right: 64px;
+    
+}
+.bottom_panel{
+    display: flex;
+    justify-content: space-around;
+}
+.logout{
+    
+    background: url('/src/img/login.svg');
+    background-repeat: no-repeat;
+    background-size: 24px;
+    width: 0px;
+    padding-bottom: 16px;
+    margin-left: auto;
+    margin-right: 16px;
+    background-position: 0px;
+    height: 32px;
+    width: 32px;
+    
+    
+}
+.login{
+    background: url('/src/img/logout.svg');
+    background-repeat: no-repeat;
+    background-size: 24px;
+    width: 0px;
+    padding-bottom: 16px;
+    margin-left: auto; 
+    margin-top: 16px;
+    height: 32px;
+    width: 32px;
+}
